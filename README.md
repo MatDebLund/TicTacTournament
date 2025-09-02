@@ -1,6 +1,6 @@
 # TicTacTournament
 
-This project trains a neural network to play tic-tac-toe using a simple neuroevolution tournament. Random policy networks play head-to-head. Winners are more likely to pass their weights to the next generation. Small random mutations are applied to explore the weight space. Over time this should move the population toward policies that avoid illegal moves and win more often.
+This project trains a neural network to play tic-tac-toe using a simple tournament. Random policy networks play head-to-head. Winners are more likely to pass their weights to the next generation. Small random mutations are applied to explore the weight space. Over time this should move the population toward policies that avoid illegal moves and win more often.
 
 The approach is intentionally minimal. It does not use backpropagation or gradients, so learning is slow and noisy. In short, it doesn't work very well, but was fun to make.
 
@@ -54,11 +54,6 @@ The approach is intentionally minimal. It does not use backpropagation or gradie
    ```
 2. Open `TicTacTournament.ipynb`.
 3. Run cells in order.
-   The notebook includes optional helpers:
-
-   * `show_board(board)` to draw the grid.
-   * `plot_fitness(history)` to show average round fitness per generation.
-   * `policy_heatmap(player)` to visualise a policy on an empty board.
 
 ## Notes on performance and limitations
 
