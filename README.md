@@ -45,15 +45,17 @@ The approach is intentionally minimal. It does not use backpropagation or gradie
 
 ## Quick start
 
-### Run the notebook
-
-1. Launch Jupyter:
-
+1. Install requirements, preferrably in a virtual environment, in python 3.12.6:
+   ```bash
+   pip install -r requirements.txt
+   pip install notebook
+   ```
+2. Launch Jupyter:
    ```bash
    jupyter notebook
    ```
-2. Open `TicTacTournament.ipynb`.
-3. Run cells in order.
+3. Open `TicTacTournament.ipynb`.
+4. Run cells in order.
 
 ## Notes on performance and limitations
 
